@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FB</title>
+    <style>
+        .parent{
+            height: 100vh;
+            font-weight: 100vw;
+            background-color: bisque;
+            display: flex;
+            
+        }
+        *{
+            box-sizing: border-box;
+        }
+        body,html{
+            margin: 20px;
+            padding: 20px;
+        }
+        .a{
+            width: 60vw;
+            height: 80vh;
+            display: flex;
+            justify-content:center; 
+           align-items: center;
+        }
+        .child{
+            height: 80vh;
+            width: 40vw;
+            background-color:beige;
+            display: flex;
+            text-align: center;
+            justify-content:center;   
+            margin-top: 40px;
+            margin-right: 6cm;
+        }
+        .a{
+            color: blue;
+        }
+        .b{
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            margin-right:50px;
+            margin-top: 40px;
+            padding: 30px;
+        }
+        .button{
+            background-color: blue;
+            width: 350px;
+        }
+        .text{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="a">
+            <div>
+                <h1>facebook</h1><br>
+                <p>facebook helps you to connect with people</p>
+            </div>
+        </div>
+        <div class="child">
+            <form>
+                <div class="b">
+                    <input type="text" placeholder="email / phone"><br><br>
+                    <input type="text" placeholder="Password"><br><br>
+                    <a href="logout.html">login</a><br>
+                    <p>forgot  <span>username/password?</span></p>
+                    <hr>
+                    <button class="text">create new account</button>
+                </div>
+            </form>
+        </div>   
+    </div> 
+</body>
+</html>

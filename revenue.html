@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body,html{
+            margin: 0px;
+        }
+        .parent{
+            width: 100vw;
+            height: 100vh;
+            background-color: violet;
+            display: flex;
+        }
+        .left{
+            width: 20%;
+            height: 100%;
+            background-color:chartreuse;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size:30px;
+        }
+        .right{
+            width: 80%;
+            height: 100%;
+            background-color: yellowgreen;
+
+        }
+        .first{
+            width: 100%;
+            height: 20%;
+            background-color: chocolate;
+            justify-content: center;
+        }
+        .r1{
+            width: 100%;
+            height: 40%;
+            display: flex;
+            justify-content: space-around;
+
+        }
+        .r2{
+            background-color: blue;
+            width: 300px;
+            hight:150px;
+            margin-top: 60px;
+            }
+        .r3{
+            width: 100%;
+            height: 40%;
+            display: flex;
+            justify-content: space-around;
+        }
+        .r4{
+            background-color: crimson;
+            width: 30%;
+            height:50%;
+            margin-top: 60px;
+        }
+        
+        
+            
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="left">
+            <p>Spur</p>
+            <p>Dashboard</p>
+            <p>Charts</p>
+            <p>Components</p>
+            <p>Layouts</p>
+            <p>About</p>
+            <a href="login.html">signout</a>
+        </div>
+        <div class="right">
+            <div class="first"></div>
+            <div class="r1">
+                <div class="r2"></div>
+                <div class="r2"></div>
+                <div class="r2"></div>
+            </div>
+            
+            <div class="r3">
+                <div class="r4"></div>
+                <div class="r4"></div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
